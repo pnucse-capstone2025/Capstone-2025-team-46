@@ -55,7 +55,15 @@ Hybrid 융합: 두 모델 중 하나라도 이상을 탐지하면 최종 '이상
 
 관리자 모니터링:
 React 기반 대시보드를 통해 전체 시스템의 위험도를 실시간으로 확인하고, 이상 로그를 필터링하며 상세 분석할 수 있습니다.
+메인 대시보드: 시스템의 전반적인 위험도를 나타내는 리스크 게이지, 최근 이상 점수 변화를 보여주는 트렌드 차트, 최신 로그 목록을 통해 현재 상태를 한눈에 파악할 수 있습니다.
 <img width="790" height="418" alt="image" src="https://github.com/user-attachments/assets/378029f0-02b5-4b58-a0ab-e27553533831" />
+
+Logs 페이지: 모든 로그를 상세히 조회하고, 모달리티별, 이상 로그만 필터링하는 등 심층 분석을 위한 강력한 필터링 기능을 제공합니다.
+<img width="777" height="352" alt="image" src="https://github.com/user-attachments/assets/6ad62a9a-05c8-490c-8314-f645651de14e" />
+
+Stats 페이지: 가장 위험도가 높은 로그 Top 5 목록 등을 제공하여, 관리자가 가장 시급한 위협부터 효율적으로 분석하고 대응할 수 있도록 지원합니다
+<img width="770" height="292" alt="image" src="https://github.com/user-attachments/assets/729f355b-b820-4c99-9775-9d298d4ac3dd" />
+
 
 ### 5. 성능 평가
 
@@ -65,7 +73,13 @@ React 기반 대시보드를 통해 전체 시스템의 위험도를 실시간�
 2)Isolation-Forest 성능평가 결과
 <img width="742" height="260" alt="image" src="https://github.com/user-attachments/assets/e521ef73-a1b9-49a6-8a0f-cb43e66d648f" />
 
-### 6. 기술 스택
+### 6. 향후 연구 방향 
+
+본 연구를 기반으로 다음과 같은 방향으로 시스템을 고도화할 수 있습니다.
+모델 고도화: GRU, Transformer 등 더 복잡한 시계열 패턴을 학습할 수 있는 최신 딥러닝 모델을 도입하고, 데이터 증강 및 적대적 훈련(Adversarial Training) 기법을 적용하여 모델의 정확성 향상.
+실시간 통신 개선: 현재의 HTTP 폴링 방식을 WebSocket 기반의 Push 알림으로 전환하여, 이상 행위 발생 즉시 지연 없이 사용자에게 알림을 전달하는 완전한 실시간 시스템을 구축.
+탐지 범위 확장: 네트워크 위협 탐지를 GeoIP, 기지국 정보, VPN/Proxy 패턴 학습 등으로 강화하고 , 분석 대상을 모바일뿐만 아니라 노트북, IoT 기기 등 다양한 엔드포인트로 확장하여 통합적인 보안 체계를 구축.
+### 7. 기술 스택
 
 Backend: Python, Django, Django REST Framework 
 Machine Learning: Python, FastAPI, Scikit-learn, PyTorch 
