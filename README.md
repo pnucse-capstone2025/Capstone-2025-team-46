@@ -153,19 +153,28 @@ Stats 페이지: 가장 위험도가 높은 로그 Top 5 목록 등을 제공하
 
 ### 6. 기술 스택
 
-Backend: Python, Django, Django REST Framework 
+#### Backend
+##### Python
+##### Django
+##### Django REST Framework 
 
-Machine Learning: Python, FastAPI, Scikit-learn, PyTorch 
+#### Machine Learning
+##### Python
+##### FastAPI
+##### Scikit-learn
+##### PyTorch 
 
-Dashboard: React, TypeScript 
+#### Dashboard
+##### React
+##### TypeScript 
 
-Mobile Agent: Android (Java/Kotlin) 
+#### Mobile Agent
+##### Android (Java/Kotlin) 
 
-Database: SQLite, PostgreSQL 
+#### Database
+##### SQLite
+##### PostgreSQL 
 
-```
-$ ./install_and_build.sh
-```
 ### 7. 소개자료
 
 [2025전기_KGL_발표자료.pdf](https://github.com/user-attachments/files/22529991/2025._KGL_.pdf)
