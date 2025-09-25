@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Policy Engine</string>
+    <string name="behavior_collection_notification_title">Policy Engine 실행 중</string>
+    <string name="behavior_collection_notification_text">보안을 위해 행동 패턴을 모니터링하고 있습니다</string>
+    <string name="permission_location_rationale">위치 정보는 이상 행동 탐지에 사용됩니다</string>
+    <string name="policy_decision_block">보안상의 이유로 접근이 차단되었습니다</string>
+    <string name="policy_decision_warning">의심스러운 활동이 감지되었습니다</string>
+    <string name="policy_decision_additional_auth">추가 인증이 필요합니다</string>
+</resources>

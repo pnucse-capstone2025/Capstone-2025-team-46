@@ -1,0 +1,11 @@
+/* src/index.css (v4) */
+@import "tailwindcss";
+/* HTML/TSX 등 템플릿만 지정 (CSS는 제외!) */
+@source "./**/*.{html,ts,tsx,jsx}";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body {
+  /* v4에서도 @apply 사용 가능 */
+  @apply bg-gray-800 text-white;
+}

@@ -1,0 +1,702 @@
+[
+  {
+    "modality": "touch_pressure",
+    "file": "20250820_150000_touch_pressure_1.json",
+    "timestamp": "2025-08-20T15:00:00.000Z",
+    "anomaly_score": 0.39856,
+    "is_anomaly": false
+  },
+  {
+    "modality": "sensor",
+    "file": "20250820_150003_sensor_2.json",
+    "timestamp": "2025-08-20T15:00:03.000Z",
+    "anomaly_score": 0.14123,
+    "is_anomaly": false
+  },
+  {
+    "modality": "touch_drag",
+    "file": "20250820_150005_touch_drag_3.json",
+    "timestamp": "2025-08-20T15:00:05.000Z",
+    "anomaly_score": 0.88123,
+    "is_anomaly": true
+  },
+  {
+    "modality": "touch_pressure",
+    "file": "20250820_150008_touch_pressure_4.json",
+    "timestamp": "2025-08-20T15:00:08.000Z",
+    "anomaly_score": 0.41234,
+    "is_anomaly": false
+  },
+  {
+    "modality": "sensor",
+    "file": "20250820_150011_sensor_5.json",
+    "timestamp": "2025-08-20T15:00:11.000Z",
+    "anomaly_score": 0.13899,
+    "is_anomaly": false
+  },
+  {
+    "modality": "touch_drag",
+    "file": "20250820_150014_touch_drag_6.json",
+    "timestamp": "2025-08-20T15:00:14.000Z",
+    "anomaly_score": 0.24876,
+    "is_anomaly": false
+  },
+  {
+    "modality": "sensor",
+    "file": "20250820_150017_sensor_7.json",
+    "timestamp": "2025-08-20T15:00:17.000Z",
+    "anomaly_score": 0.92543,
+    "is_anomaly": true
+  },
+  {
+    "modality": "touch_pressure",
+    "file": "20250820_150020_touch_pressure_8.json",
+    "timestamp": "2025-08-20T15:00:20.000Z",
+    "anomaly_score": 0.42033,
+    "is_anomaly": false
+  },
+  {
+    "modality": "touch_drag",
+    "file": "20250820_150023_touch_drag_9.json",
+    "timestamp": "2025-08-20T15:00:23.000Z",
+    "anomaly_score": 0.25198,
+    "is_anomaly": false
+  },
+  {
+    "modality": "sensor",
+    "file": "20250820_150026_sensor_10.json",
+    "timestamp": "2025-08-20T15:00:26.000Z",
+    "anomaly_score": 0.14567,
+    "is_anomaly": false
+  },
+  {
+    "modality": "touch_pressure",
+    "file": "20250820_150029_touch_pressure_11.json",
+    "timestamp": "2025-08-20T15:00:29.000Z",
+    "anomaly_score": 0.95012,
+    "is_anomaly": true
+  },
+  {
+    "modality": "sensor",
+    "file": "20250820_150032_sensor_12.json",
+    "timestamp": "2025-08-20T15:00:32.000Z",
+    "anomaly_score": 0.13987,
+    "is_anomaly": false
+  },
+  {
+    "modality": "touch_drag",
+    "file": "20250820_150035_touch_drag_13.json",
+    "timestamp": "2025-08-20T15:00:35.000Z",
+    "anomaly_score": 0.24567,
+    "is_anomaly": false
+  },
+  {
+    "modality": "touch_pressure",
+    "file": "20250820_150038_touch_pressure_14.json",
+    "timestamp": "2025-08-20T15:00:38.000Z",
+    "anomaly_score": 0.40123,
+    "is_anomaly": false
+  },
+  {
+    "modality": "sensor",
+    "file": "20250820_150041_sensor_15.json",
+    "timestamp": "2025-08-20T15:00:41.000Z",
+    "anomaly_score": 0.14234,
+    "is_anomaly": false
+  },
+  {
+    "modality": "touch_drag",
+    "file": "20250820_150044_touch_drag_16.json",
+    "timestamp": "2025-08-20T15:00:44.000Z",
+    "anomaly_score": 0.25432,
+    "is_anomaly": false
+  },
+  {
+    "modality": "sensor",
+    "file": "20250820_150047_sensor_17.json",
+    "timestamp": "2025-08-20T15:00:47.000Z",
+    "anomaly_score": 0.14098,
+    "is_anomaly": false
+  },
+  {
+    "modality": "touch_pressure",
+    "file": "20250820_150050_touch_pressure_18.json",
+    "timestamp": "2025-08-20T15:00:50.000Z",
+    "anomaly_score": 0.41098,
+    "is_anomaly": false
+  },
+  {
+    "modality": "touch_drag",
+    "file": "20250820_150053_touch_drag_19.json",
+    "timestamp": "2025-08-20T15:00:53.000Z",
+    "anomaly_score": 0.91234,
+    "is_anomaly": true
+  },
+  {
+    "modality": "sensor",
+    "file": "20250820_150056_sensor_20.json",
+    "timestamp": "2025-08-20T15:00:56.000Z",
+    "anomaly_score": 0.14321,
+    "is_anomaly": false
+  },
+  {
+    "modality": "touch_pressure",
+    "file": "20250820_150059_touch_pressure_21.json",
+    "timestamp": "2025-08-20T15:00:59.000Z",
+    "anomaly_score": 0.39567,
+    "is_anomaly": false
+  },
+  {
+    "modality": "sensor",
+    "file": "20250820_150102_sensor_22.json",
+    "timestamp": "2025-08-20T15:01:02.000Z",
+    "anomaly_score": 0.14111,
+    "is_anomaly": false
+  },
+  {
+    "modality": "touch_drag",
+    "file": "20250820_150105_touch_drag_23.json",
+    "timestamp": "2025-08-20T15:01:05.000Z",
+    "anomaly_score": 0.25055,
+    "is_anomaly": false
+  },
+  {
+    "modality": "touch_pressure",
+    "file": "20250820_150108_touch_pressure_24.json",
+    "timestamp": "2025-08-20T15:01:08.000Z",
+    "anomaly_score": 0.40543,
+    "is_anomaly": false
+  },
+  {
+    "modality": "sensor",
+    "file": "20250820_150111_sensor_25.json",
+    "timestamp": "2025-08-20T15:01:11.000Z",
+    "anomaly_score": 0.14444,
+    "is_anomaly": false
+  },
+  {
+    "modality": "touch_drag",
+    "file": "20250820_150114_touch_drag_26.json",
+    "timestamp": "2025-08-20T15:01:14.000Z",
+    "anomaly_score": 0.24888,
+    "is_anomaly": false
+  },
+  {
+    "modality": "sensor",
+    "file": "20250820_150117_sensor_27.json",
+    "timestamp": "2025-08-20T15:01:17.000Z",
+    "anomaly_score": 0.13999,
+    "is_anomaly": false
+  },
+  {
+    "modality": "touch_pressure",
+    "file": "20250820_150120_touch_pressure_28.json",
+    "timestamp": "2025-08-20T15:01:20.000Z",
+    "anomaly_score": 0.41555,
+    "is_anomaly": false
+  },
+  {
+    "modality": "touch_drag",
+    "file": "20250820_150123_touch_drag_29.json",
+    "timestamp": "2025-08-20T15:01:23.000Z",
+    "anomaly_score": 0.25222,
+    "is_anomaly": false
+  },
+  {
+    "modality": "sensor",
+    "file": "20250820_150126_sensor_30.json",
+    "timestamp": "2025-08-20T15:01:26.000Z",
+    "anomaly_score": 0.14222,
+    "is_anomaly": false
+  },
+  {
+    "modality": "touch_pressure",
+    "file": "20250820_150129_touch_pressure_31.json",
+    "timestamp": "2025-08-20T15:01:29.000Z",
+    "anomaly_score": 0.98765,
+    "is_anomaly": true
+  },
+  {
+    "modality": "sensor",
+    "file": "20250820_150132_sensor_32.json",
+    "timestamp": "2025-08-20T15:01:32.000Z",
+    "anomaly_score": 0.13888,
+    "is_anomaly": false
+  },
+  {
+    "modality": "touch_drag",
+    "file": "20250820_150135_touch_drag_33.json",
+    "timestamp": "2025-08-20T15:01:35.000Z",
+    "anomaly_score": 0.24777,
+    "is_anomaly": false
+  },
+  {
+    "modality": "touch_pressure",
+    "file": "20250820_150138_touch_pressure_34.json",
+    "timestamp": "2025-08-20T15:01:38.000Z",
+    "anomaly_score": 0.40333,
+    "is_anomaly": false
+  },
+  {
+    "modality": "sensor",
+    "file": "20250820_150141_sensor_35.json",
+    "timestamp": "2025-08-20T15:01:41.000Z",
+    "anomaly_score": 0.14111,
+    "is_anomaly": false
+  },
+  {
+    "modality": "touch_drag",
+    "file": "20250820_150144_touch_drag_36.json",
+    "timestamp": "2025-08-20T15:01:44.000Z",
+    "anomaly_score": 0.94321,
+    "is_anomaly": true
+  },
+  {
+    "modality": "sensor",
+    "file": "20250820_150147_sensor_37.json",
+    "timestamp": "2025-08-20T15:01:47.000Z",
+    "anomaly_score": 0.14000,
+    "is_anomaly": false
+  },
+  {
+    "modality": "touch_pressure",
+    "file": "20250820_150150_touch_pressure_38.json",
+    "timestamp": "2025-08-20T15:01:50.000Z",
+    "anomaly_score": 0.41888,
+    "is_anomaly": false
+  },
+  {
+    "modality": "touch_drag",
+    "file": "20250820_150153_touch_drag_39.json",
+    "timestamp": "2025-08-20T15:01:53.000Z",
+    "anomaly_score": 0.25333,
+    "is_anomaly": false
+  },
+  {
+    "modality": "sensor",
+    "file": "20250820_150156_sensor_40.json",
+    "timestamp": "2025-08-20T15:01:56.000Z",
+    "anomaly_score": 0.14222,
+    "is_anomaly": false
+  },
+  {
+    "modality": "touch_pressure",
+    "file": "20250820_150159_touch_pressure_41.json",
+    "timestamp": "2025-08-20T15:01:59.000Z",
+    "anomaly_score": 0.39666,
+    "is_anomaly": false
+  },
+  {
+    "modality": "sensor",
+    "file": "20250820_150202_sensor_42.json",
+    "timestamp": "2025-08-20T15:02:02.000Z",
+    "anomaly_score": 0.14000,
+    "is_anomaly": false
+  },
+  {
+    "modality": "touch_drag",
+    "file": "20250820_150205_touch_drag_43.json",
+    "timestamp": "2025-08-20T15:02:05.000Z",
+    "anomaly_score": 0.24999,
+    "is_anomaly": false
+  },
+  {
+    "modality": "touch_pressure",
+    "file": "20250820_150208_touch_pressure_44.json",
+    "timestamp": "2025-08-20T15:02:08.000Z",
+    "anomaly_score": 0.40888,
+    "is_anomaly": false
+  },
+  {
+    "modality": "sensor",
+    "file": "20250820_150211_sensor_45.json",
+    "timestamp": "2025-08-20T15:02:11.000Z",
+    "anomaly_score": 0.14333,
+    "is_anomaly": false
+  },
+  {
+    "modality": "touch_drag",
+    "file": "20250820_150214_touch_drag_46.json",
+    "timestamp": "2025-08-20T15:02:14.000Z",
+    "anomaly_score": 0.25111,
+    "is_anomaly": false
+  },
+  {
+    "modality": "sensor",
+    "file": "20250820_150217_sensor_47.json",
+    "timestamp": "2025-08-20T15:02:17.000Z",
+    "anomaly_score": 0.13999,
+    "is_anomaly": false
+  },
+  {
+    "modality": "touch_pressure",
+    "file": "20250820_150220_touch_pressure_48.json",
+    "timestamp": "2025-08-20T15:02:20.000Z",
+    "anomaly_score": 0.41444,
+    "is_anomaly": false
+  },
+  {
+    "modality": "touch_drag",
+    "file": "20250820_150223_touch_drag_49.json",
+    "timestamp": "2025-08-20T15:02:23.000Z",
+    "anomaly_score": 0.97543,
+    "is_anomaly": true
+  },
+  {
+    "modality": "sensor",
+    "file": "20250820_150226_sensor_50.json",
+    "timestamp": "2025-08-20T15:02:26.000Z",
+    "anomaly_score": 0.14222,
+    "is_anomaly": false
+  },
+  {
+    "modality": "touch_pressure",
+    "file": "20250820_150229_touch_pressure_51.json",
+    "timestamp": "2025-08-20T15:02:29.000Z",
+    "anomaly_score": 0.39777,
+    "is_anomaly": false
+  },
+  {
+    "modality": "sensor",
+    "file": "20250820_150232_sensor_52.json",
+    "timestamp": "2025-08-20T15:02:32.000Z",
+    "anomaly_score": 0.14111,
+    "is_anomaly": false
+  },
+  {
+    "modality": "touch_drag",
+    "file": "20250820_150235_touch_drag_53.json",
+    "timestamp": "2025-08-20T15:02:35.000Z",
+    "anomaly_score": 0.24888,
+    "is_anomaly": false
+  },
+  {
+    "modality": "touch_pressure",
+    "file": "20250820_150238_touch_pressure_54.json",
+    "timestamp": "2025-08-20T15:02:38.000Z",
+    "anomaly_score": 0.40666,
+    "is_anomaly": false
+  },
+  {
+    "modality": "sensor",
+    "file": "20250820_150241_sensor_55.json",
+    "timestamp": "2025-08-20T15:02:41.000Z",
+    "anomaly_score": 0.14333,
+    "is_anomaly": false
+  },
+  {
+    "modality": "touch_drag",
+    "file": "20250820_150244_touch_drag_56.json",
+    "timestamp": "2025-08-20T15:02:44.000Z",
+    "anomaly_score": 0.25111,
+    "is_anomaly": false
+  },
+  {
+    "modality": "sensor",
+    "file": "20250820_150247_sensor_57.json",
+    "timestamp": "2025-08-20T15:02:47.000Z",
+    "anomaly_score": 0.13999,
+    "is_anomaly": false
+  },
+  {
+    "modality": "touch_pressure",
+    "file": "20250820_150250_touch_pressure_58.json",
+    "timestamp": "2025-08-20T15:02:50.000Z",
+    "anomaly_score": 0.41444,
+    "is_anomaly": false
+  },
+  {
+    "modality": "touch_drag",
+    "file": "20250820_150253_touch_drag_59.json",
+    "timestamp": "2025-08-20T15:02:53.000Z",
+    "anomaly_score": 0.25222,
+    "is_anomaly": false
+  },
+  {
+    "modality": "sensor",
+    "file": "20250820_150256_sensor_60.json",
+    "timestamp": "2025-08-20T15:02:56.000Z",
+    "anomaly_score": 0.14222,
+    "is_anomaly": false
+  },
+  {
+    "modality": "touch_pressure",
+    "file": "20250820_150259_touch_pressure_61.json",
+    "timestamp": "2025-08-20T15:02:59.000Z",
+    "anomaly_score": 0.39777,
+    "is_anomaly": false
+  },
+  {
+    "modality": "sensor",
+    "file": "20250820_150302_sensor_62.json",
+    "timestamp": "2025-08-20T15:03:02.000Z",
+    "anomaly_score": 0.14111,
+    "is_anomaly": false
+  },
+  {
+    "modality": "touch_drag",
+    "file": "20250820_150305_touch_drag_63.json",
+    "timestamp": "2025-08-20T15:03:05.000Z",
+    "anomaly_score": 0.24888,
+    "is_anomaly": false
+  },
+  {
+    "modality": "touch_pressure",
+    "file": "20250820_150308_touch_pressure_64.json",
+    "timestamp": "2025-08-20T15:03:08.000Z",
+    "anomaly_score": 0.40666,
+    "is_anomaly": false
+  },
+  {
+    "modality": "sensor",
+    "file": "20250820_150311_sensor_65.json",
+    "timestamp": "2025-08-20T15:03:11.000Z",
+    "anomaly_score": 0.14333,
+    "is_anomaly": false
+  },
+  {
+    "modality": "touch_drag",
+    "file": "20250820_150314_touch_drag_66.json",
+    "timestamp": "2025-08-20T15:03:14.000Z",
+    "anomaly_score": 0.25111,
+    "is_anomaly": false
+  },
+  {
+    "modality": "sensor",
+    "file": "20250820_150317_sensor_67.json",
+    "timestamp": "2025-08-20T15:03:17.000Z",
+    "anomaly_score": 0.13999,
+    "is_anomaly": false
+  },
+  {
+    "modality": "touch_pressure",
+    "file": "20250820_150320_touch_pressure_68.json",
+    "timestamp": "2025-08-20T15:03:20.000Z",
+    "anomaly_score": 0.41444,
+    "is_anomaly": false
+  },
+  {
+    "modality": "touch_drag",
+    "file": "20250820_150323_touch_drag_69.json",
+    "timestamp": "2025-08-20T15:03:23.000Z",
+    "anomaly_score": 0.25222,
+    "is_anomaly": false
+  },
+  {
+    "modality": "sensor",
+    "file": "20250820_150326_sensor_70.json",
+    "timestamp": "2025-08-20T15:03:26.000Z",
+    "anomaly_score": 0.14222,
+    "is_anomaly": false
+  },
+  {
+    "modality": "touch_pressure",
+    "file": "20250820_150329_touch_pressure_71.json",
+    "timestamp": "2025-08-20T15:03:29.000Z",
+    "anomaly_score": 0.39777,
+    "is_anomaly": false
+  },
+  {
+    "modality": "sensor",
+    "file": "20250820_150332_sensor_72.json",
+    "timestamp": "2025-08-20T15:03:32.000Z",
+    "anomaly_score": 0.14111,
+    "is_anomaly": false
+  },
+  {
+    "modality": "touch_drag",
+    "file": "20250820_150335_touch_drag_73.json",
+    "timestamp": "2025-08-20T15:03:35.000Z",
+    "anomaly_score": 0.24888,
+    "is_anomaly": false
+  },
+  {
+    "modality": "touch_pressure",
+    "file": "20250820_150338_touch_pressure_74.json",
+    "timestamp": "2025-08-20T15:03:38.000Z",
+    "anomaly_score": 0.40666,
+    "is_anomaly": false
+  },
+  {
+    "modality": "sensor",
+    "file": "20250820_150341_sensor_75.json",
+    "timestamp": "2025-08-20T15:03:41.000Z",
+    "anomaly_score": 0.14333,
+    "is_anomaly": false
+  },
+  {
+    "modality": "touch_drag",
+    "file": "20250820_150344_touch_drag_76.json",
+    "timestamp": "2025-08-20T15:03:44.000Z",
+    "anomaly_score": 0.25111,
+    "is_anomaly": false
+  },
+  {
+    "modality": "sensor",
+    "file": "20250820_150347_sensor_77.json",
+    "timestamp": "2025-08-20T15:03:47.000Z",
+    "anomaly_score": 0.13999,
+    "is_anomaly": false
+  },
+  {
+    "modality": "touch_pressure",
+    "file": "20250820_150350_touch_pressure_78.json",
+    "timestamp": "2025-08-20T15:03:50.000Z",
+    "anomaly_score": 0.41444,
+    "is_anomaly": false
+  },
+  {
+    "modality": "touch_drag",
+    "file": "20250820_150353_touch_drag_79.json",
+    "timestamp": "2025-08-20T15:03:53.000Z",
+    "anomaly_score": 0.25222,
+    "is_anomaly": false
+  },
+  {
+    "modality": "sensor",
+    "file": "20250820_150356_sensor_80.json",
+    "timestamp": "2025-08-20T15:03:56.000Z",
+    "anomaly_score": 0.14222,
+    "is_anomaly": false
+  },
+  {
+    "modality": "touch_pressure",
+    "file": "20250820_150359_touch_pressure_81.json",
+    "timestamp": "2025-08-20T15:03:59.000Z",
+    "anomaly_score": 0.39777,
+    "is_anomaly": false
+  },
+  {
+    "modality": "sensor",
+    "file": "20250820_150402_sensor_82.json",
+    "timestamp": "2025-08-20T15:04:02.000Z",
+    "anomaly_score": 0.14111,
+    "is_anomaly": false
+  },
+  {
+    "modality": "touch_drag",
+    "file": "20250820_150405_touch_drag_83.json",
+    "timestamp": "2025-08-20T15:04:05.000Z",
+    "anomaly_score": 0.24888,
+    "is_anomaly": false
+  },
+  {
+    "modality": "touch_pressure",
+    "file": "20250820_150408_touch_pressure_84.json",
+    "timestamp": "2025-08-20T15:04:08.000Z",
+    "anomaly_score": 0.40666,
+    "is_anomaly": false
+  },
+  {
+    "modality": "sensor",
+    "file": "20250820_150411_sensor_85.json",
+    "timestamp": "2025-08-20T15:04:11.000Z",
+    "anomaly_score": 0.14333,
+    "is_anomaly": false
+  },
+  {
+    "modality": "touch_drag",
+    "file": "20250820_150414_touch_drag_86.json",
+    "timestamp": "2025-08-20T15:04:14.000Z",
+    "anomaly_score": 0.25111,
+    "is_anomaly": false
+  },
+  {
+    "modality": "sensor",
+    "file": "20250820_150417_sensor_87.json",
+    "timestamp": "2025-08-20T15:04:17.000Z",
+    "anomaly_score": 0.13999,
+    "is_anomaly": false
+  },
+  {
+    "modality": "touch_pressure",
+    "file": "20250820_150420_touch_pressure_88.json",
+    "timestamp": "2025-08-20T15:04:20.000Z",
+    "anomaly_score": 0.41444,
+    "is_anomaly": false
+  },
+  {
+    "modality": "touch_drag",
+    "file": "20250820_150423_touch_drag_89.json",
+    "timestamp": "2025-08-20T15:04:23.000Z",
+    "anomaly_score": 0.25222,
+    "is_anomaly": false
+  },
+  {
+    "modality": "sensor",
+    "file": "20250820_150426_sensor_90.json",
+    "timestamp": "2025-08-20T15:04:26.000Z",
+    "anomaly_score": 0.14222,
+    "is_anomaly": false
+  },
+  {
+    "modality": "touch_pressure",
+    "file": "20250820_150429_touch_pressure_91.json",
+    "timestamp": "2025-08-20T15:04:29.000Z",
+    "anomaly_score": 0.39777,
+    "is_anomaly": false
+  },
+  {
+    "modality": "sensor",
+    "file": "20250820_150432_sensor_92.json",
+    "timestamp": "2025-08-20T15:04:32.000Z",
+    "anomaly_score": 0.14111,
+    "is_anomaly": false
+  },
+  {
+    "modality": "touch_drag",
+    "file": "20250820_150435_touch_drag_93.json",
+    "timestamp": "2025-08-20T15:04:35.000Z",
+    "anomaly_score": 0.24888,
+    "is_anomaly": false
+  },
+  {
+    "modality": "touch_pressure",
+    "file": "20250820_150438_touch_pressure_94.json",
+    "timestamp": "2025-08-20T15:04:38.000Z",
+    "anomaly_score": 0.40666,
+    "is_anomaly": false
+  },
+  {
+    "modality": "sensor",
+    "file": "20250820_150441_sensor_95.json",
+    "timestamp": "2025-08-20T15:04:41.000Z",
+    "anomaly_score": 0.14333,
+    "is_anomaly": false
+  },
+  {
+    "modality": "touch_drag",
+    "file": "20250820_150444_touch_drag_96.json",
+    "timestamp": "2025-08-20T15:04:44.000Z",
+    "anomaly_score": 0.25111,
+    "is_anomaly": false
+  },
+  {
+    "modality": "sensor",
+    "file": "20250820_150447_sensor_97.json",
+    "timestamp": "2025-08-20T15:04:47.000Z",
+    "anomaly_score": 0.13999,
+    "is_anomaly": false
+  },
+  {
+    "modality": "touch_pressure",
+    "file": "20250820_150450_touch_pressure_98.json",
+    "timestamp": "2025-08-20T15:04:50.000Z",
+    "anomaly_score": 0.41444,
+    "is_anomaly": false
+  },
+  {
+    "modality": "touch_drag",
+    "file": "20250820_150453_touch_drag_99.json",
+    "timestamp": "2025-08-20T15:04:53.000Z",
+    "anomaly_score": 0.25222,
+    "is_anomaly": false
+  },
+  {
+    "modality": "sensor",
+    "file": "20250820_150456_sensor_100.json",
+    "timestamp": "2025-08-20T15:04:56.000Z",
+    "anomaly_score": 0.14222,
+    "is_anomaly": false
+  }
+]

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <domain-config cleartextTrafficPermitted="true">
+        <domain includeSubdomains="true">10.0.2.2</domain>
+        <domain includeSubdomains="true">localhost</domain>
+        <domain includeSubdomains="true">127.0.0.1</domain>
+        <domain includeSubdomains="true">172.21.146.42</domain>
+        <domain includeSubdomains="true">192.168.75.136</domain>
+        <domain includeSubdomains="true">192.168.75.128</domain>
+        <domain includeSubdomains="true">192.168.75.236</domain>
+        <domain includeSubdomains="true">192.168.75.222</domain>
+        <domain includeSubdomains="true"> 192.168.75.224</domain>
+        <domain includeSubdomains="true">192.168.248.152</domain>
+        <domain includeSubdomains="true">policyengine.duckdns.org</domain>
+
+        <domain includeSubdomains="false">192.168.0.104</domain>
+        <domain includeSubdomains="false">192.168.1.100</domain>
+    </domain-config>
+</network-security-config>

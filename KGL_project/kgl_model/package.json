@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "pandas": "^0.0.3"
+  },
+  "devDependencies": {
+    "prettier": "^3.6.2"
+  }
+}
