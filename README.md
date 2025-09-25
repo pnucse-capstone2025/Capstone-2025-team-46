@@ -154,26 +154,26 @@ Stats 페이지: 가장 위험도가 높은 로그 Top 5 목록 등을 제공하
 ### 6. 기술 스택
 
 #### Backend
-##### Python
-##### Django
-##### Django REST Framework 
+#####  - Python
+#####  - Django
+#####  - Django REST Framework 
 
 #### Machine Learning
-##### Python
-##### FastAPI
-##### Scikit-learn
-##### PyTorch 
+#####  - Python
+#####  - FastAPI
+#####  - Scikit-learn
+#####  - PyTorch 
 
 #### Dashboard
-##### React
-##### TypeScript 
+#####  - React
+#####  - TypeScript 
 
 #### Mobile Agent
-##### Android (Java/Kotlin) 
+#####  - Android (Java/Kotlin) 
 
 #### Database
-##### SQLite
-##### PostgreSQL 
+#####  - SQLite
+#####  - PostgreSQL 
 
 ### 7. 소개자료
 
