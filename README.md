@@ -142,7 +142,29 @@ Stats 페이지: 가장 위험도가 높은 로그 Top 5 목록 등을 제공하
 
 #### 4.4. 디렉터리 구조 
 
-<img width="500" height="592" alt="image" src="https://github.com/user-attachments/assets/ec0f478a-f18d-4d6d-94b4-1fe1089838f5" />
+```
+├─KGL_Android 
+│  ├─.gradle     
+│  ├─.kotlin
+│  ├─app                           
+│  ├─build
+│  ├─gradle
+├─kgl_backend
+│  ├─anomal
+│  ├─behavior
+│  └─nac_backend          
+├─kgl_model
+│  ├─detect_all.py
+│  ├─detect_sensor.py
+│  ├─detect_touch_drag.py
+│  ├─detect_touch_pressure.py
+......
+│      
+└─Kgl_Nac_dashboard
+    ├─node_modules
+    ├─src
+......
+```
 
 ### 5. 향후 연구 방향 
 
@@ -153,27 +175,27 @@ Stats 페이지: 가장 위험도가 높은 로그 Top 5 목록 등을 제공하
 
 ### 6. 기술 스택
 
-#### Backend
-#####  - Python
-#####  - Django
-#####  - Django REST Framework 
++ Backend
+  + Python
+  + Django
+  + Django REST Framework 
 
-#### Machine Learning
-#####  - Python
-#####  - FastAPI
-#####  - Scikit-learn
-#####  - PyTorch 
++ Machine Learning
+  + Python
+  + FastAPI
+  + Scikit-learn
+  +  PyTorch 
 
-#### Dashboard
-#####  - React
-#####  - TypeScript 
++ Dashboard
+  + React
+  + TypeScript 
 
-#### Mobile Agent
-#####  - Android (Java/Kotlin) 
++ Mobile Agent
+  + Android (Java/Kotlin) 
 
-#### Database
-#####  - SQLite
-#####  - PostgreSQL 
++ Database
+  + SQLite
+  + PostgreSQL 
 
 ### 7. 소개자료
 
@@ -181,19 +203,19 @@ Stats 페이지: 가장 위험도가 높은 로그 Top 5 목록 등을 제공하
 
 ### 8. 팀소개
 
-#### 지도교수: 최윤호 교수님
++ 지도교수: 최윤호 교수님
 
-#### 권태현
-##### xogus0065@naver.com
-##### 프론트엔드 및 LSTM-AE 모델 개발
++ 권태현
+  + xogus0065@naver.com
+  + 프론트엔드 및 LSTM-AE 모델 개발
 
-#### 구현서
-##### hyeonseo0524@naver.com
-##### 안드로이드 및 Isolation-Forest 모델 개발
++ 구현서
+  + hyeonseo0524@naver.com
+  + 안드로이드 및 Isolation-Forest 모델 개발
 
-#### 이승원
-##### swon9570@naver.com
-##### policy engine 백앤드 개발
++ 이승원
+  + swon9570@naver.com
+  + policy engine 백앤드 개발
 
 ### 9. 참고 문헌
 
