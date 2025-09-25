@@ -142,20 +142,16 @@ Stats 페이지: 가장 위험도가 높은 로그 Top 5 목록 등을 제공하
 
 #### 4.4. 디렉터리 구조 
 
-<img width="367" height="517" alt="image" src="https://github.com/user-attachments/assets/c81f5aed-ddae-4d0e-9b85-2968d700bebc" />
+<img width="500" height="592" alt="image" src="https://github.com/user-attachments/assets/ec0f478a-f18d-4d6d-94b4-1fe1089838f5" />
 
-### 5. 설치 및 실행 방법
-
-#### 5.1. 설치절차 및 실행 방법
-
-
-### 7. 향후 연구 방향 
+### 5. 향후 연구 방향 
 
 본 연구를 기반으로 다음과 같은 방향으로 시스템을 고도화할 수 있습니다.
 모델 고도화: GRU, Transformer 등 더 복잡한 시계열 패턴을 학습할 수 있는 최신 딥러닝 모델을 도입하고, 데이터 증강 및 적대적 훈련(Adversarial Training) 기법을 적용하여 모델의 정확성 향상.
 실시간 통신 개선: 현재의 HTTP 폴링 방식을 WebSocket 기반의 Push 알림으로 전환하여, 이상 행위 발생 즉시 지연 없이 사용자에게 알림을 전달하는 완전한 실시간 시스템을 구축.
 탐지 범위 확장: 네트워크 위협 탐지를 GeoIP, 기지국 정보, VPN/Proxy 패턴 학습 등으로 강화하고 , 분석 대상을 모바일뿐만 아니라 노트북, IoT 기기 등 다양한 엔드포인트로 확장하여 통합적인 보안 체계를 구축.
-### 8. 기술 스택
+
+### 6. 기술 스택
 
 Backend: Python, Django, Django REST Framework 
 
@@ -170,11 +166,11 @@ Database: SQLite, PostgreSQL
 ```
 $ ./install_and_build.sh
 ```
-### . 소개자료
+### 7. 소개자료
 
 [2025전기_KGL_발표자료.pdf](https://github.com/user-attachments/files/22529991/2025._KGL_.pdf)
 
-### . 팀소개
+### 8. 팀소개
 
 #### 지도교수: 최윤호 교수님
 
@@ -190,7 +186,7 @@ $ ./install_and_build.sh
 ##### swon9570@naver.com
 ##### policy engine 백앤드 개발
 
-### . 참고 문헌
+### 9. 참고 문헌
 
 1. Mahmoud Said Elsayed, Nhien-An Le-Khac, Soumyabrata Dev, and Anca Delia Jurcut. Network Anomaly Detection Using LSTM Based Autoencoder. 2020.
 2. O. I. Provotar, Y. M. Linder, and M. M. Veres. Unsupervised Anomaly Detection in Time Series Using LSTM-Based Autoencoders. 2019 IEEE International Conference on Advanced Trends in Information Theory (ATIT), Kyiv, Ukraine, 2019, pp. 513-517. doi: 10.1109/ATIT49449.2019.9030505.
