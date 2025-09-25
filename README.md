@@ -12,9 +12,11 @@
 
 이승원, swon9570@naver.com, policy engine 백앤드 개발
 
+### 3. 소개자료
 
+[2025전기_KGL_발표자료.pdf](https://github.com/user-attachments/files/22529991/2025._KGL_.pdf)
 
-### 3. 시스템 구성도
+### 4. 시스템 구성도
 
 시스템은 사용자의 행동 로그를 수집, 분석, 탐지하며 관리자에게 시각화하고 사용자에게 피드백을 제공하는 End-to-End 파이프라인 구조로 설계되었습니다.
 Android App (Agent): 사용자의 터치, 센서, 네트워크 로그를 실시간으로 수집하여 백엔드 서버로 전송합니다.
@@ -27,9 +29,9 @@ Mobile Alert: 이상 행위가 탐지되면 안드로이드 앱에서 사용자�
 
 
 
-### 4. 핵심 기술 및 구현
+### 5. 핵심 기술 및 구현
 
-4.1 데이터 수집 (Android Agent)
+5.1 데이터 수집 (Android Agent)
 
 안드로이드 에이전트를 통해 3가지 핵심 데이터를 실시간으로 수집합니다.
 Touch: 사용자의 고유한 습관이 반영된 터치 압력, 드래그 패턴, 지속 시간 등을 수집합니다.
@@ -44,14 +46,14 @@ Network: GPS 좌표, 접속 정보를 수집하여 이상현상을 탐지합니�
 
 <img width="342" height="262" alt="image" src="https://github.com/user-attachments/assets/eeb654c9-045e-4964-a347-af599721ad92" />
 
-4.2 이상 탐지 모델 (Hybrid Model)
+5.2 이상 탐지 모델 (Hybrid Model)
 
 두 가지 머신러닝 모델을 결합한 하이브리드 아키텍처를 통해 탐지 정확성과 안정성을 높였습니다.
 Isolation Forest: 트리 기반의 빠른 이상 탐지 모델로, 개별 로그 데이터의 통계적 이상치를 탐지합니다.
 LSTM Auto-Encoder: 사용자의 행동 순서(Sequence)를 학습하여, 시계열 데이터의 패턴에서 벗어나는 변칙적인 행위를 탐지합니다.
 Hybrid 융합: 두 모델 중 하나라도 이상을 탐지하면 최종 '이상'으로 판단하는 OR 논리를 적용하여 탐지율을 극대화했습니다.
 
-4.3 동적 대응 및 피드백 (Android & Dashboard)
+5.3 동적 대응 및 피드백 (Android & Dashboard)
 
 이상 탐지 결과에 따라 즉각적인 보안 조치가 실행됩니다.
 
@@ -76,7 +78,7 @@ Stats 페이지: 가장 위험도가 높은 로그 Top 5 목록 등을 제공하
 <img width="770" height="292" alt="image" src="https://github.com/user-attachments/assets/729f355b-b820-4c99-9775-9d298d4ac3dd" />
 
 
-### 5. 성능 평가
+### 6. 성능 평가
 
 모델 성능 평가 결과, 평균 F1-Score 0.8961, 평균 재현율(Recall) 0.9160을 기록하여 대부분의 이상 행위를 성공적으로 탐지하는 성능을 확인했습니다. 특히, 사용자의 무의식적 패턴이 반영된 센서 데이터에서 가장 높은 탐지 성능(F1-Score 0.9668)을 보였습니다.
 1)LSTM-AE 성능평가 결과
@@ -87,13 +89,13 @@ Stats 페이지: 가장 위험도가 높은 로그 Top 5 목록 등을 제공하
 
 <img width="742" height="260" alt="image" src="https://github.com/user-attachments/assets/e521ef73-a1b9-49a6-8a0f-cb43e66d648f" />
 
-### 6. 향후 연구 방향 
+### 7. 향후 연구 방향 
 
 본 연구를 기반으로 다음과 같은 방향으로 시스템을 고도화할 수 있습니다.
 모델 고도화: GRU, Transformer 등 더 복잡한 시계열 패턴을 학습할 수 있는 최신 딥러닝 모델을 도입하고, 데이터 증강 및 적대적 훈련(Adversarial Training) 기법을 적용하여 모델의 정확성 향상.
 실시간 통신 개선: 현재의 HTTP 폴링 방식을 WebSocket 기반의 Push 알림으로 전환하여, 이상 행위 발생 즉시 지연 없이 사용자에게 알림을 전달하는 완전한 실시간 시스템을 구축.
 탐지 범위 확장: 네트워크 위협 탐지를 GeoIP, 기지국 정보, VPN/Proxy 패턴 학습 등으로 강화하고 , 분석 대상을 모바일뿐만 아니라 노트북, IoT 기기 등 다양한 엔드포인트로 확장하여 통합적인 보안 체계를 구축.
-### 7. 기술 스택
+### 8. 기술 스택
 
 Backend: Python, Django, Django REST Framework 
 
@@ -103,10 +105,17 @@ Dashboard: React, TypeScript
 
 Mobile Agent: Android (Java/Kotlin) 
 
-
-
 Database: SQLite, PostgreSQL 
 
 ```
 $ ./install_and_build.sh
 ```
+### 9. 참고 문헌
+
+1. Mahmoud Said Elsayed, Nhien-An Le-Khac, Soumyabrata Dev, and Anca Delia Jurcut. Network Anomaly Detection Using LSTM Based Autoencoder. 2020.
+2. O. I. Provotar, Y. M. Linder, and M. M. Veres. Unsupervised Anomaly Detection in Time Series Using LSTM-Based Autoencoders. 2019 IEEE International Conference on Advanced Trends in Information Theory (ATIT), Kyiv, Ukraine, 2019, pp. 513-517. doi: 10.1109/ATIT49449.2019.9030505.
+3. Sensor-Based Continuous Authentication of Smartphones’ Users Using Behavioral Biometrics: A Contemporary Survey 
+4. Mobile User Authentication Using Statistical Touch Dynamics Images 
+5. A User and Entity Behavior Analytics Log Data Set for Anomaly Detection in Cloud Computing 
+6. A Dynamic Access Control Model Based on Attributes and Intro VAE
+
