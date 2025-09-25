@@ -7,7 +7,9 @@
 지도교수: 최윤호 교수님
 
 권태현, xogus0065@naver.com, 프론트엔드 및 LSTM-AE 모델 개발
+
 구현서, hyeonseo0524@naver.com, 안드로이드 및 Isolation-Forest 모델 개발
+
 이승원, swon9570@naver.com, policy engine 백앤드 개발
 
 
