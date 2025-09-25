@@ -33,10 +33,15 @@ Mobile Alert: 이상 행위가 탐지되면 안드로이드 앱에서 사용자�
 
 안드로이드 에이전트를 통해 3가지 핵심 데이터를 실시간으로 수집합니다.
 Touch: 사용자의 고유한 습관이 반영된 터치 압력, 드래그 패턴, 지속 시간 등을 수집합니다.
+
 <img width="711" height="488" alt="image" src="https://github.com/user-attachments/assets/404a8f10-efa4-443c-b496-d4829f438cd4" />
+
 Sensor: 가속도계와 자이로스코프 센서를 이용해 기기 흔들림, 걸음걸이 등 물리적 행동 패턴을 수집합니다.
+
 <img width="357" height="502" alt="image" src="https://github.com/user-attachments/assets/f23bca64-b9d1-41c4-8483-70a8106a3026" />
+
 Network: GPS 좌표, 접속 정보를 수집하여 이상현상을 탐지합니다.
+
 <img width="342" height="262" alt="image" src="https://github.com/user-attachments/assets/eeb654c9-045e-4964-a347-af599721ad92" />
 
 4.2 이상 탐지 모델 (Hybrid Model)
@@ -53,17 +58,21 @@ Hybrid 융합: 두 모델 중 하나라도 이상을 탐지하면 최종 '이상
 사용자 대응:
 네트워크 이상 탐지 시: 사용자에게 '비행기 모드 전환', 'Wi-Fi 차단' 등의 선택지를 팝업으로 제공합니다.
 터치/센서 이상 탐지 시: 비정상적인 사용으로 판단하여 자동으로 스마트폰을 잠금 상태로 전환합니다.
+
 <img width="695" height="207" alt="image" src="https://github.com/user-attachments/assets/e74bbdce-ac69-40fd-b7ab-d64140f69792" />
 
 관리자 모니터링:
 React 기반 대시보드를 통해 전체 시스템의 위험도를 실시간으로 확인하고, 이상 로그를 필터링하며 상세 분석할 수 있습니다.
 메인 대시보드: 시스템의 전반적인 위험도를 나타내는 리스크 게이지, 최근 이상 점수 변화를 보여주는 트렌드 차트, 최신 로그 목록을 통해 현재 상태를 한눈에 파악할 수 있습니다.
+
 <img width="790" height="418" alt="image" src="https://github.com/user-attachments/assets/378029f0-02b5-4b58-a0ab-e27553533831" />
 
 Logs 페이지: 모든 로그를 상세히 조회하고, 모달리티별, 이상 로그만 필터링하는 등 심층 분석을 위한 강력한 필터링 기능을 제공합니다.
+
 <img width="777" height="352" alt="image" src="https://github.com/user-attachments/assets/6ad62a9a-05c8-490c-8314-f645651de14e" />
 
 Stats 페이지: 가장 위험도가 높은 로그 Top 5 목록 등을 제공하여, 관리자가 가장 시급한 위협부터 효율적으로 분석하고 대응할 수 있도록 지원합니다
+
 <img width="770" height="292" alt="image" src="https://github.com/user-attachments/assets/729f355b-b820-4c99-9775-9d298d4ac3dd" />
 
 
@@ -71,8 +80,11 @@ Stats 페이지: 가장 위험도가 높은 로그 Top 5 목록 등을 제공하
 
 모델 성능 평가 결과, 평균 F1-Score 0.8961, 평균 재현율(Recall) 0.9160을 기록하여 대부분의 이상 행위를 성공적으로 탐지하는 성능을 확인했습니다. 특히, 사용자의 무의식적 패턴이 반영된 센서 데이터에서 가장 높은 탐지 성능(F1-Score 0.9668)을 보였습니다.
 1)LSTM-AE 성능평가 결과
+
 <img width="727" height="291" alt="image" src="https://github.com/user-attachments/assets/26d29671-3452-42fb-9fb7-79e70d3c35d3" />
+
 2)Isolation-Forest 성능평가 결과
+
 <img width="742" height="260" alt="image" src="https://github.com/user-attachments/assets/e521ef73-a1b9-49a6-8a0f-cb43e66d648f" />
 
 ### 6. 향후 연구 방향 
@@ -84,9 +96,13 @@ Stats 페이지: 가장 위험도가 높은 로그 Top 5 목록 등을 제공하
 ### 7. 기술 스택
 
 Backend: Python, Django, Django REST Framework 
+
 Machine Learning: Python, FastAPI, Scikit-learn, PyTorch 
+
 Dashboard: React, TypeScript 
+
 Mobile Agent: Android (Java/Kotlin) 
+
 
 
 Database: SQLite, PostgreSQL 
